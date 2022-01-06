@@ -21,9 +21,9 @@ public class SinglyListMain {
         values = input.next();
 
         if (checkIfDigit(values) == true) { //Adding the values to the list and grouping them
-            charDigitList.addFirst(values);
+            charDigitList.addFirst(values);	//if digit insert first in list
         } else {
-            charDigitList.addLast(values);
+            charDigitList.addLast(values);	//if char insert last in list 
         }
     }
 	       charDigitList.printList();
